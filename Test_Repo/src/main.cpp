@@ -21,7 +21,7 @@ void setup() {
 
 void loop() {
   // Test code
-  pmwDuty(0);                         // 0% 
+  pwmDuty(0);                         // 0% 
   delay(5000);                        // wait
   pwmDuty(19);                        // 25% (range = 0-79 = 1.25-100%)
   delay(5000);                        // wait, then speed up
